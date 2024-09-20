@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mjj Coffee</title>
+        <meta name="description" content="Mjj Coffee is a coffee bean shop that delivers freshly roasted coffee beans.">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+                <a href="index.html" id="logo"><img src="images/logo-cat-coffee-white.png" alt="back to homepage"></a>
+                <nav id="nav-pc">
+                    <a href="index.html#concept">CONCEPT</a>
+                    <a href="index.html#product">PRODUCT</a>
+                    <a href="index.html#company">COMPANY</a>
+                </nav>
+                <!-- For Smart phone menu button -->
+                <img id="menu-sp" src="images/button-menu.png" alt="Open navigation" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <!-- For Smart phone navigation -->
+                <nav id="nav-sp">
+                    <img id="close" src="images/button-close.png" alt="Close navigation" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-cat-coffee-white.png" alt="back to homepage"></a>
+                    <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+                    <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+                    <a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a>
+                    <div id="sns">
+                        <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Follow us on Facebook"></a>
+                        <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Follow us on X"></a>
+                    </div>
+                </nav>
+        </header>
+        <main>
+            <article>
+                <section id="main-visual">
+                    <div id="main-message">
+                        <h1>Mjj Coffee</h1>
+                        <p>Original Coffee</p>
+                        <p>Savor the Taste of Our House-Roasted Coffee</p>
+                    </div>
+                    <img src="images/index/index-main-coffee.jpg" alt="Image of brewing coffee">
+                </section>
+                <section id="concept">
+                    <h2 class="index-h2">CONCEPT</h2>
+                    <div id="concept-flex">
+                        <div>
+                            <img class="concept-photo" src="images/index/index-fair-trade.jpg" alt="coffee cherry">
+                            <h3>Fair Trade</h3>
+                            <p>We use high-quality coffee beans sourced through fair trade with the country of origin</p>
+                        </div>
+                        <div>
+                            <img class="concept-photo" src="images/index/index-house-brend.jpg" alt="House-Roasted Blend">
+                            <h3>House-Roasted Blend</h3>
+                            <p>We deliver freshly roasted coffee beans to your home</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="product">
+                    <h2 class="index-h2">PRODUCT</h2>
+                    <div>
+                        <div id="product-left">
+                            <div>
+                                <img class="product-photo" src="images/index/index-originalblend.png" alt="Original Blend">
+                                <div class="product-explain">
+                                    <span>ORIGINAL</span>
+                                    <h3>Original Blend</h3>
+                                    <p>Original house-roasted coffee blended from multiple producing countries</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="product-photo" src="images/index/index-decaf.png" alt="Decaf Coffee">
+                                <div class="product-explain">
+                                    <span>DE-CAF</span>
+                                    <h3>Decaf Coffee</h3>
+                                    <p>Decaf coffee that's safe to drink before bed or during pregnancy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-right">
+                            <div>
+                                <img class="product-photo" src="images/index/index-specialty.png" alt="Specialty Coffee">
+                                <div class="product-explain">
+                                    <span>SPECIALTY</span>
+                                    <h3>Specialty Coffee</h3>
+                                    <p>Carefully roasted beans from selected farms to bring out their unique characteristics, offering a variety of flavors to enjoy</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="product-photo" src="images/index/index-coffee-tool.png" alt="Coffee tools">
+                                <div class="product-explain">
+                                    <span>TOOLS</span>
+                                    <h3>Coffee tools</h3>
+                                    <p>Coffee tools that make it easy and safe to brew coffee</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="company">
+                    <h2 class="index-h2">COMPANY</h2>
+                    <table id="company-table">
+                        <tr>
+                            <th class="tableheader-first">Company Name</th>
+                            <td class="cell-first">Mjj Coffee Inc.</td>
+                        </tr>
+                        <tr>
+                            <th class="tableheader">Address</th>
+                            <td class="cell">5th Floor, Sumitomo Fudosan Akihabara Ekimae Building, 300 Kanda Neribei-cho, Chiyoda-ku, Tokyo 101-0022, Japan
+                                1-minute walk from JR Akihabara Station
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="tableheader">Representative</th>
+                            <td class="cell">Taro Tanaka, CEO</td>
+                        </tr>
+                        <tr>
+                            <th class="tableheader">Foundation</th>
+                            <td class="cell">March 19, 2015</td>
+                        </tr>
+                    </table>
+                </section>
+                <footer>
+                    <div id="footer-logo">
+                        <img src="images/logo-cat-coffee-white.png" alt="Mjj Coffee">
+                    </div>
+                    <div>
+                        <div id="footer-link">
+                            <a href="index.html#concept">CONCEPT</a>
+                            <a href="index.html#product">PRODUCT</a>
+                            <a href="index.html#company">COMPANY</a>
+                        </div>
+                        <div id="sns-footer">
+                            <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Follow us on Facebook"></a>
+                            <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Follow us on X"></a>
+                            <p id="copyright">&copy;2023 Cat Coffee, Inc. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div></div>
+                </footer>
+            </article>
+        </main>
+    </body>
+</html>
